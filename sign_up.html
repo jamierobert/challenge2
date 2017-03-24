@@ -6,6 +6,10 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<meta name="description" content="Sign up form">
+    <meta name="keywords" content="User sign-up password-reset">
+    <meta name="author" content="Jay Dee">
+
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	
@@ -20,13 +24,13 @@
 		<h1>Sign up</h1>
 
 		<label for="email">Email</label>
-		<input placeholder="foo@bar.com" type="email" name="email" id='email' pattern='[0-9 a-z A-Z]@[a-z A-Z]' required />
+		<input placeholder="foo@bar.com" type="email" name="email" id='email' pattern='[^@]+@[^@]+\.[a-zA-Z]{2,}' required />
 
 		<label class="password-label" for="password">Password</label>
 		<input class="password-input" placeholder="1234passwOrd" type="password" name="password" id='password' required />
 
 	
-		<button type='submit'>Sign up</button>
+		<button type='submit' class='button'>Sign up</button>
 
 		<a href="/forgot-password/new" class="forgot-password"> Forgot password?</a>
 
