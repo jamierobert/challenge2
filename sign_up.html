@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Sign up</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+</head>
+
+<body>
+	<header class="header">
+		<img src="resources/images/logo.png" class="logo">	
+	</header>
+	
+	<form class='sign-up-form' aciton=/signup/ method="post">
+		<h1>Sign up</h1>
+
+		<label for="email">Email</label>
+		<input placeholder="foo@bar.com" type="email" name="email" id='email' pattern='[0-9 a-z A-Z]@[a-z A-Z]' required />
+
+		<label class="password-label" for="password">Password</label>
+		<input class="password-input" placeholder="1234passwOrd" type="password" name="password" id='password' required />
+
+	
+		<button type='submit'>Sign up</button>
+
+		<a href="/forgot-password/new" class="forgot-password"> Forgot password?</a>
+
+	</form>
+
+	
+	<p class="account-reminder">Already have an account? <a class="login-link" href="/login">Log in</a></p>
+	
+
+</body>
+
+
+</html>

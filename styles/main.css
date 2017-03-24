@@ -1,0 +1,60 @@
+
+body{
+	text-align: center;
+	background-color: lightblue;
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	text-align: center;
+	padding: 40px;
+
+}
+.logo{
+	height: 35px;	
+}
+h1{
+	text-align: center; 
+
+}
+.sign-up-form{
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white; 
+	width: 320px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;  
+}
+.sign-up-form label{
+	text-align: left;
+    display:block;
+}
+.sign-up-form input{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 303px;
+	padding:15px;
+	height: 28px;
+	border: solid lightgrey 2px;
+     
+}
+button{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 303px;
+	padding:15px;
+	height: 28px;
+	border: solid lightgrey 2px;
+	color: white;
+	background-color: lightgreen;
+
+}
+.account-reminder{
+	text-align: center;
+	color: white;
+}
+
